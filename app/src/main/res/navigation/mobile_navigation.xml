@@ -3,7 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_course">
+    app:startDestination="@+id/nav_allocation">
+
+    <fragment
+        android:id="@+id/nav_allocation"
+        android:name="com.example.professorallocationmobile.ui.allocation.AllocationFragment"
+        android:label="@string/menu_allocation"
+        tools:layout="@layout/fragment_allocation">
+        <action
+            android:id="@+id/action_nav_allocation_to_nav_allocation_form"
+            app:destination="@id/nav_allocation_form" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_allocation_form"
+        android:name="com.example.professorallocationmobile.ui.allocation.AllocationFormFragment"
+        tools:layout="@layout/fragment_allocation_form" />
 
     <fragment
         android:id="@+id/nav_course"

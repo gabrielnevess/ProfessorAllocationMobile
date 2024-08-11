@@ -47,5 +47,20 @@
     <string name="professor_saved">Professor saved successfully!</string>
     <string name="error_saving_professor">Error saving professor</string>
 
+    <!-- AllocationFormFragment -->
+    <string name="update_allocation">Updated Allocation</string>
+    <string name="save_allocation">Saved Allocation</string>
+    <string name="allocation_day_of_week_required">DayOfWeek is required!</string>
+    <string name="allocation_start_hour_required">StartHour is required!</string>
+    <string name="allocation_end_hour_required">EndHour is required!</string>
+    <string name="allocation_course_required">Course is required!</string>
+    <string name="allocation_professor_required">Professor is required!</string>
+    <string name="error_loading_allocation">Error loading allocation</string>
+    <string name="error_delete_allocation">Error delete allocation</string>
+    <string name="allocation_deleted">Allocation deleted successfully!</string>
+    <string name="allocation_updated">Allocation updated successfully!</string>
+    <string name="allocation_saved">Allocation saved successfully!</string>
+    <string name="error_saving_allocation">Error saving allocation</string>
+
     <string name="we_didn_t_find_anything_here">We didn\'t find anything here.</string>
 </resources>
