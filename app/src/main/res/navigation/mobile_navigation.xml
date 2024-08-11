@@ -20,4 +20,19 @@
         android:name="com.example.professorallocationmobile.ui.course.CourseFormFragment"
         tools:layout="@layout/fragment_course_form" />
 
+    <fragment
+        android:id="@+id/nav_department"
+        android:name="com.example.professorallocationmobile.ui.department.DepartmentFragment"
+        android:label="@string/menu_department"
+        tools:layout="@layout/fragment_department">
+        <action
+            android:id="@+id/action_nav_department_to_nav_department_form"
+            app:destination="@id/nav_department_form" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_department_form"
+        android:name="com.example.professorallocationmobile.ui.department.DepartmentFormFragment"
+        tools:layout="@layout/fragment_department_form" />
+
 </navigation>

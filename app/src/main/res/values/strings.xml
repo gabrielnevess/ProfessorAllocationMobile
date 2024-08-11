@@ -23,5 +23,16 @@
     <string name="course_saved">Course saved successfully!</string>
     <string name="error_saving_course">Error saving course</string>
 
+    <!-- DepartmentFormFragment -->
+    <string name="update_department">Updated Department</string>
+    <string name="save_department">Saved Department</string>
+    <string name="department_name_required">Department name is required!</string>
+    <string name="error_loading_department">Error loading department</string>
+    <string name="error_delete_department">Error delete department</string>
+    <string name="department_deleted">Department deleted successfully!</string>
+    <string name="department_updated">Department updated successfully!</string>
+    <string name="department_saved">Department saved successfully!</string>
+    <string name="error_saving_department">Error saving department</string>
+
     <string name="we_didn_t_find_anything_here">We didn\'t find anything here.</string>
 </resources>
