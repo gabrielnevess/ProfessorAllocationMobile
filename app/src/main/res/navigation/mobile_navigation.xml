@@ -3,5 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_course">
+
+    <fragment
+        android:id="@+id/nav_course"
+        android:name="com.example.professorallocationmobile.ui.course.CourseFragment"
+        android:label="@string/menu_course"
+        tools:layout="@layout/fragment_course">
+        <action
+            android:id="@+id/action_nav_course_to_nav_course_form"
+            app:destination="@id/nav_course_form" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_course_form"
+        android:name="com.example.professorallocationmobile.ui.course.CourseFormFragment"
+        tools:layout="@layout/fragment_course_form" />
+
 </navigation>

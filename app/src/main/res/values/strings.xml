@@ -11,4 +11,17 @@
     <string name="menu_course">Courses</string>
     <string name="menu_department">Departments</string>
     <string name="menu_professor">Professors</string>
+
+    <!-- CourseFormFragment -->
+    <string name="update_course">Updated Course</string>
+    <string name="save_course">Saved Course</string>
+    <string name="course_name_required">Course name is required!</string>
+    <string name="error_loading_course">Error loading course</string>
+    <string name="error_delete_course">Error delete course</string>
+    <string name="course_deleted">Course deleted successfully!</string>
+    <string name="course_updated">Course updated successfully!</string>
+    <string name="course_saved">Course saved successfully!</string>
+    <string name="error_saving_course">Error saving course</string>
+
+    <string name="we_didn_t_find_anything_here">We didn\'t find anything here.</string>
 </resources>
