@@ -34,5 +34,18 @@
     <string name="department_saved">Department saved successfully!</string>
     <string name="error_saving_department">Error saving department</string>
 
+    <!-- ProfessorFormFragment -->
+    <string name="update_professor">Updated Professor</string>
+    <string name="save_professor">Saved Professor</string>
+    <string name="professor_name_required">Professor name is required!</string>
+    <string name="professor_cpf_required">Cpf is required!</string>
+    <string name="professor_department_required">Department is required!</string>
+    <string name="error_loading_professor">Error loading professor</string>
+    <string name="error_delete_professor">Error delete professor</string>
+    <string name="professor_deleted">Professor deleted successfully!</string>
+    <string name="professor_updated">Professor updated successfully!</string>
+    <string name="professor_saved">Professor saved successfully!</string>
+    <string name="error_saving_professor">Error saving professor</string>
+
     <string name="we_didn_t_find_anything_here">We didn\'t find anything here.</string>
 </resources>
